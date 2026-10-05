@@ -1,0 +1,11 @@
+[project]
+name = "amacite"
+version = "0.1.0"
+description = "AMA citation generator from PubMed IDs"
+requires-python = ">=3.9"
+
+[project.scripts]
+amacite = "amacite.cli:main"
+
+[tool.setuptools]
+packages = ["amacite"]
